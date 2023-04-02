@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+
 h1{ font-size: 40px;} 
 h2{ font-size: 30px;}
 h3{ font-size: 25px;}
@@ -23,17 +20,100 @@ button{
 }
 .navbar-brand{
     font-family: 'Modern Antiqua', cursive;
+    
 }
 main{
     background-image: url(https://images.unsplash.com/photo-1527596428171-7885b82c91c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80);
     width: 100%;
-    height: 500px;
-    background-position-y: 50%;
+    height: 700px;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 70px;
+    
+    
     color: white;
     font-family: 'Josefin Slab', serif;
+}
+.texto-principal{
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+.boton-reserva{
+    gap: 10px;
+    text-align: center;
+
+
+    
+}
+.boton-reserva button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px 70px;
+    border-radius: 60px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px rgba(235, 227, 227, 0.747);
+    color: white;
+    background-color: rgb(240, 206, 134);
+    
+
+}
+.container{
+    padding: 30px;
+    max-width: 1400px;
+    margin: auto;
+}
+.seccion-cartas{
+    background-color: brown;
+    color: white;
+    justify-content: space-around;
+    text-align: center;
+}
+.contenedor-cartas{
+    display: flex;
+    justify-content: center;
+    
+}
+.carta-1{
+    background-image: url(../assets/img/cafe.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px;
+    
+}
+.carta-2{
+    background-image: url(../assets/img/zumos.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px;
+    
+}
+.carta-3{
+    background-image: url(../assets/img/horno.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px;
+   
+}
+.carta-4{
+    background-image: url(../assets/img/motos.png);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px;
+   
+}
+
+
+
+
+
+@media(max-width:720px){
+    .contenedor-cartas{
+        flex-direction: column;
+    }
 }

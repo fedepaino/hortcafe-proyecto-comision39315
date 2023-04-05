@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*font-family: 'Josefin Slab', serif;*/
 
 h1{ font-size: 40px;} 
@@ -19,9 +20,9 @@ button{
     color: white;
     background-color: rgba(0, 128, 0, 0.411);
 }
+
 .navbar-brand{
     font-family: 'Modern Antiqua', cursive;
-    
 }
 
 .texto-principal{
@@ -29,10 +30,12 @@ button{
     padding-top: 10%;
     padding-bottom: 20%;
 }
+
 .boton-reserva{
     gap: 10px;
     text-align: center;
 }
+
 .conteiner-main{
     background-image: url(../assets/img/fondo-main.png);
     background-repeat: no-repeat;
@@ -42,9 +45,8 @@ button{
     font-family: 'Josefin Slab', serif;
     width: 100%;
     height: 90vh;
-
-    
 }
+
 .boton-reserva button{
     font-size: 20px;
     font-weight: bold;
@@ -54,63 +56,62 @@ button{
     box-shadow: 2px 2px 10px rgba(235, 227, 227, 0.747);
     color: white;
     background-color: rgb(240, 206, 134);
-    
-
 }
+
 .container{
     padding: 30px;
     justify-content: center;
     text-align: center;
-    
 }
+
 .seccion-cartas{
     background-color: brown;
     color: white;
     text-align: center;
     align-items: center;
-
 }
+
 .contenedor-cartas{
     display: flex;
     justify-content: center;
 }
+
 .carta-1{
     background-image: url(../assets/img/cafe.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
     margin: 20px;
-    
 }
+
 .carta-2{
     background-image: url(../assets/img/zumos.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
     margin: 20px;
-    
 }
+
 .carta-3{
     background-image: url(../assets/img/horno.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
     margin: 20px;
-
 }
+
 .carta-4{
     background-image: url(../assets/img/sandwich.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
     margin: 20px;
-
 }
+
 @media(max-width:720px){
     .contenedor-cartas{
         flex-direction: column;
     }
-
 }
 
 footer{
@@ -118,8 +119,8 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
+
 .conteiner-redes{
     display: flex;
     align-items: center;
@@ -130,6 +131,7 @@ footer{
         display: none;
     }
 }
+
 .conteiner-horario, 
 .conteiner-ubicacion,
 .conteiner-llamanos,
@@ -137,24 +139,22 @@ footer{
     background-color: rgba(255, 217, 0, 0.404);
     text-align: center;
     font-size: 25px;
-    
 }
+
 .conteiner-contacto{
     background-image: url(../assets/img/fondo-main.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: rgb(12, 11, 11);
-    
+    color: rgb(12, 11, 11);    
     width: 100%;
     height: 90vh;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    
-
 }
+
 .conteiner-horario{
     display: flex;
     text-align: center;
@@ -162,21 +162,22 @@ footer{
     grid-column: 1 / 3;
     
 }
+
 .conteiner-ubicacion{
     grid-column: 3 / 4;
     grid-row: span 4;
-    
 }
+
 .conteiner-llamanos{
     grid-column: 1 / 2;
     grid-row: 3 /4;
-    
 }
-    
+
 .conteiner-escribenos{
     grid-column: 2 / 3;
     grid-row: 3 / 4;
 }
+
 .conteiner-galeria{
     background-image: url(../assets/img/fondo-main.png);
     background-repeat: no-repeat;
@@ -186,8 +187,8 @@ footer{
     width: 100%;
     height: 90vh;
     padding-top: 20px;
-
 }
+
 .conteiner-carrusel{
     width: 500px;
     height: 400px;

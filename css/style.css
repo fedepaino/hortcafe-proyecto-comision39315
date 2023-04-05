@@ -136,6 +136,7 @@ footer{
 .conteiner-escribenos {
     background-color: rgba(255, 217, 0, 0.404);
     text-align: center;
+    font-size: 25px;
     
 }
 .conteiner-contacto{
@@ -143,34 +144,52 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: white;
-    font-family: 'Josefin Slab', serif;
+    color: rgb(12, 11, 11);
+    
     width: 100%;
     height: 90vh;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: 
-    "conteiner-horario"
-    "conteiner-ubicacion"
-    "conteiner-llamanos"
-    "conteiner-escribenos";
+    grid-template-rows: repeat(4, 1fr);
+    
 
 }
 .conteiner-horario{
+    display: flex;
+    text-align: center;
+    justify-content: center;
     grid-column: 1 / 3;
     
 }
 .conteiner-ubicacion{
     grid-column: 3 / 4;
-    grid-row: span 2;
+    grid-row: span 4;
     
 }
 .conteiner-llamanos{
     grid-column: 1 / 2;
+    grid-row: 3 /4;
+    
 }
     
 .conteiner-escribenos{
     grid-column: 2 / 3;
+    grid-row: 3 / 4;
 }
+.conteiner-galeria{
+    background-image: url(../assets/img/fondo-main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(12, 11, 11);
+    width: 100%;
+    height: 90vh;
+    padding-top: 20px;
+
+}
+.conteiner-carrusel{
+    width: 500px;
+    height: 400px;
+}
+
